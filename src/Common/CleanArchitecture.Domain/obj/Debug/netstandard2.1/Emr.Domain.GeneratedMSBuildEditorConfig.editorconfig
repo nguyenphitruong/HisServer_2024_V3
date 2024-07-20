@@ -1,0 +1,5 @@
+is_global = true
+build_property.RootNamespace = Emr.Domain
+build_property.ProjectDir = D:\Truongnp\NAM_2024\GitHub\HIS_MANAGER_PRO_V3\HisServer_2024_V3\src\Common\CleanArchitecture.Domain\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 

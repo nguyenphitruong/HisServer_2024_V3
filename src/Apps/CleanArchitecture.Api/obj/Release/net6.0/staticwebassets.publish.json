@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "USyrZ11vCGuwpBAzaGmCUd3gfa9nolGIW6lv+2yPhxw=",
+  "Source": "Emr.Api",
+  "BasePath": "_content/Emr.Api",
+  "Mode": "Default",
+  "ManifestType": "Publish",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

@@ -1,0 +1,130 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Emr.Api</name>
+    </assembly>
+    <members>
+        <member name="T:Emr.Api.Controllers.BaseApiController">
+            <summary>
+            Base api controller
+            </summary>
+        </member>
+        <member name="P:Emr.Api.Controllers.BaseApiController.Mediator">
+            <summary>
+            Mediator sender
+            </summary>
+        </member>
+        <member name="M:Emr.Api.Controllers.RegisterController.GetRegistryByCodeAdmission(System.String)">
+            <summary>
+            Example
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Emr.Api.Controllers.RegisterController.GetRegisterHistory(System.String)">
+            <summary>
+            Example
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Emr.Api.Controllers.RegisterController.CheckExpertiseBHYT(Emr.Domain.ReadModel.Emr.BHYT.BHYTGet)">
+            <summary>
+            Check cổng giám định BHYT
+            </summary>
+            sample={"maThe":"DN4797413001617","hoTen":"NGUYỄN PHI TRƯỜNG","ngaySinh":"19/08/1988"}
+            <param name="i_CarePara"></param>
+            <returns></returns>
+        </member>
+        <member name="T:Emr.Api.Controllers.WeatherForecastController">
+            <summary>
+            Weather Forecast
+            </summary>
+        </member>
+        <member name="M:Emr.Api.Controllers.WeatherForecastController.Get">
+            <summary>
+            Basic and static weather forecast
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:Emr.Api.Filters.ApiExceptionFilterAttribute">
+            <summary>
+            Exception filters
+            </summary>
+        </member>
+        <member name="M:Emr.Api.Filters.ApiExceptionFilterAttribute.#ctor">
+            <summary>
+            Constructor
+            </summary>
+        </member>
+        <member name="M:Emr.Api.Filters.ApiExceptionFilterAttribute.OnException(Microsoft.AspNetCore.Mvc.Filters.ExceptionContext)">
+            <summary>
+            On exception event
+            </summary>
+            <param name="context"></param>
+        </member>
+        <member name="T:Emr.Api.Program">
+            <summary>
+            Starter
+            </summary>
+        </member>
+        <member name="M:Emr.Api.Program.Main(System.String[])">
+            <summary>
+            Main function
+            </summary>
+            <param name="args"></param>
+            <returns></returns>
+               
+        </member>
+        <member name="M:Emr.Api.Program.CreateHostBuilder(System.String[])">
+            <summary>
+            WebHost builder
+            </summary>
+            <param name="args"></param>
+            <returns></returns>
+        </member>
+        <member name="T:Emr.Api.Services.CurrentUserService">
+            <summary>
+            UserId
+            </summary>
+        </member>
+        <member name="M:Emr.Api.Services.CurrentUserService.#ctor(Microsoft.AspNetCore.Http.IHttpContextAccessor)">
+            <summary>
+            Constructor
+            </summary>
+            <param name="httpContextAccessor"></param>
+        </member>
+        <member name="P:Emr.Api.Services.CurrentUserService.UserId">
+            <summary>
+            Current userId
+            </summary>
+        </member>
+        <member name="T:Emr.Api.Startup">
+            <summary>
+            Startup
+            </summary>
+        </member>
+        <member name="M:Emr.Api.Startup.#ctor(Microsoft.Extensions.Configuration.IConfiguration)">
+            <summary>
+            Constructor
+            </summary>
+            <param name="configuration"></param>
+        </member>
+        <member name="P:Emr.Api.Startup.Configuration">
+            <summary>
+            Configuration
+            </summary>
+        </member>
+        <member name="M:Emr.Api.Startup.ConfigureServices(Microsoft.Extensions.DependencyInjection.IServiceCollection)">
+            <summary>
+            Configure Services
+            </summary>
+            <param name="services"></param>
+        </member>
+        <member name="M:Emr.Api.Startup.Configure(Microsoft.AspNetCore.Builder.IApplicationBuilder,Microsoft.AspNetCore.Hosting.IWebHostEnvironment)">
+            <summary>
+            Configure
+            </summary>
+            <param name="app"></param>
+            <param name="env"></param>
+        </member>
+    </members>
+</doc>

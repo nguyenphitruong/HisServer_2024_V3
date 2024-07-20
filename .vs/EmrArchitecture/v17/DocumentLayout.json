@@ -1,0 +1,274 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Truongnp\\NAM_2024\\GitHub\\HIS_MANAGER_PRO_V3\\HisServer_2024_V3\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{22C69B88-7F88-4CBD-9018-DA4B7208B502}|src\\Common\\CleanArchitecture.Domain\\Emr.Domain.csproj|d:\\truongnp\\nam_2024\\github\\his_manager_pro_v3\\hisserver_2024_v3\\src\\common\\cleanarchitecture.domain\\readmodel\\share\\patients\\patientreadmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{22C69B88-7F88-4CBD-9018-DA4B7208B502}|src\\Common\\CleanArchitecture.Domain\\Emr.Domain.csproj|solutionrelative:src\\common\\cleanarchitecture.domain\\readmodel\\share\\patients\\patientreadmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FB27BD16-7EF8-4FED-B822-177438585578}|src\\Common\\CleanArchitecture.Infrastructure\\Emr.Infrastructure.csproj|d:\\truongnp\\nam_2024\\github\\his_manager_pro_v3\\hisserver_2024_v3\\src\\common\\cleanarchitecture.infrastructure\\services\\share\\patient\\patientservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FB27BD16-7EF8-4FED-B822-177438585578}|src\\Common\\CleanArchitecture.Infrastructure\\Emr.Infrastructure.csproj|solutionrelative:src\\common\\cleanarchitecture.infrastructure\\services\\share\\patient\\patientservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FB27BD16-7EF8-4FED-B822-177438585578}|src\\Common\\CleanArchitecture.Infrastructure\\Emr.Infrastructure.csproj|d:\\truongnp\\nam_2024\\github\\his_manager_pro_v3\\hisserver_2024_v3\\src\\common\\cleanarchitecture.infrastructure\\repositories\\emr\\registers\\registryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FB27BD16-7EF8-4FED-B822-177438585578}|src\\Common\\CleanArchitecture.Infrastructure\\Emr.Infrastructure.csproj|solutionrelative:src\\common\\cleanarchitecture.infrastructure\\repositories\\emr\\registers\\registryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FB27BD16-7EF8-4FED-B822-177438585578}|src\\Common\\CleanArchitecture.Infrastructure\\Emr.Infrastructure.csproj|d:\\truongnp\\nam_2024\\github\\his_manager_pro_v3\\hisserver_2024_v3\\src\\common\\cleanarchitecture.infrastructure\\repositories\\share\\patient\\patientrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FB27BD16-7EF8-4FED-B822-177438585578}|src\\Common\\CleanArchitecture.Infrastructure\\Emr.Infrastructure.csproj|solutionrelative:src\\common\\cleanarchitecture.infrastructure\\repositories\\share\\patient\\patientrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FB27BD16-7EF8-4FED-B822-177438585578}|src\\Common\\CleanArchitecture.Infrastructure\\Emr.Infrastructure.csproj|d:\\truongnp\\nam_2024\\github\\his_manager_pro_v3\\hisserver_2024_v3\\src\\common\\cleanarchitecture.infrastructure\\repomapper\\share\\patient\\patiententitymapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FB27BD16-7EF8-4FED-B822-177438585578}|src\\Common\\CleanArchitecture.Infrastructure\\Emr.Infrastructure.csproj|solutionrelative:src\\common\\cleanarchitecture.infrastructure\\repomapper\\share\\patient\\patiententitymapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{22C69B88-7F88-4CBD-9018-DA4B7208B502}|src\\Common\\CleanArchitecture.Domain\\Emr.Domain.csproj|d:\\truongnp\\nam_2024\\github\\his_manager_pro_v3\\hisserver_2024_v3\\src\\common\\cleanarchitecture.domain\\model\\share\\patient\\patientmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{22C69B88-7F88-4CBD-9018-DA4B7208B502}|src\\Common\\CleanArchitecture.Domain\\Emr.Domain.csproj|solutionrelative:src\\common\\cleanarchitecture.domain\\model\\share\\patient\\patientmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A8D18FE5-1BD1-47D7-B1CC-A388AC959ADF}|src\\Apps\\CleanArchitecture.Api\\Emr.Api.csproj|d:\\truongnp\\nam_2024\\github\\his_manager_pro_v3\\hisserver_2024_v3\\src\\apps\\cleanarchitecture.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A8D18FE5-1BD1-47D7-B1CC-A388AC959ADF}|src\\Apps\\CleanArchitecture.Api\\Emr.Api.csproj|solutionrelative:src\\apps\\cleanarchitecture.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{22C69B88-7F88-4CBD-9018-DA4B7208B502}|src\\Common\\CleanArchitecture.Domain\\Emr.Domain.csproj|d:\\truongnp\\nam_2024\\github\\his_manager_pro_v3\\hisserver_2024_v3\\src\\common\\cleanarchitecture.domain\\readmodel\\emr\\bhyt\\bhytreadmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{22C69B88-7F88-4CBD-9018-DA4B7208B502}|src\\Common\\CleanArchitecture.Domain\\Emr.Domain.csproj|solutionrelative:src\\common\\cleanarchitecture.domain\\readmodel\\emr\\bhyt\\bhytreadmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FB27BD16-7EF8-4FED-B822-177438585578}|src\\Common\\CleanArchitecture.Infrastructure\\Emr.Infrastructure.csproj|d:\\truongnp\\nam_2024\\github\\his_manager_pro_v3\\hisserver_2024_v3\\src\\common\\cleanarchitecture.infrastructure\\services\\emr\\registers\\registryservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FB27BD16-7EF8-4FED-B822-177438585578}|src\\Common\\CleanArchitecture.Infrastructure\\Emr.Infrastructure.csproj|solutionrelative:src\\common\\cleanarchitecture.infrastructure\\services\\emr\\registers\\registryservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A8D18FE5-1BD1-47D7-B1CC-A388AC959ADF}|src\\Apps\\CleanArchitecture.Api\\Emr.Api.csproj|d:\\truongnp\\nam_2024\\github\\his_manager_pro_v3\\hisserver_2024_v3\\src\\apps\\cleanarchitecture.api\\controllers\\catecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A8D18FE5-1BD1-47D7-B1CC-A388AC959ADF}|src\\Apps\\CleanArchitecture.Api\\Emr.Api.csproj|solutionrelative:src\\apps\\cleanarchitecture.api\\controllers\\catecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FB27BD16-7EF8-4FED-B822-177438585578}|src\\Common\\CleanArchitecture.Infrastructure\\Emr.Infrastructure.csproj|d:\\truongnp\\nam_2024\\github\\his_manager_pro_v3\\hisserver_2024_v3\\src\\common\\cleanarchitecture.infrastructure\\repositories\\emr\\bhyt\\bhytrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FB27BD16-7EF8-4FED-B822-177438585578}|src\\Common\\CleanArchitecture.Infrastructure\\Emr.Infrastructure.csproj|solutionrelative:src\\common\\cleanarchitecture.infrastructure\\repositories\\emr\\bhyt\\bhytrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FB27BD16-7EF8-4FED-B822-177438585578}|src\\Common\\CleanArchitecture.Infrastructure\\Emr.Infrastructure.csproj|d:\\truongnp\\nam_2024\\github\\his_manager_pro_v3\\hisserver_2024_v3\\src\\common\\cleanarchitecture.infrastructure\\hepper\\provider\\apipublic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FB27BD16-7EF8-4FED-B822-177438585578}|src\\Common\\CleanArchitecture.Infrastructure\\Emr.Infrastructure.csproj|solutionrelative:src\\common\\cleanarchitecture.infrastructure\\hepper\\provider\\apipublic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FB27BD16-7EF8-4FED-B822-177438585578}|src\\Common\\CleanArchitecture.Infrastructure\\Emr.Infrastructure.csproj|d:\\truongnp\\nam_2024\\github\\his_manager_pro_v3\\hisserver_2024_v3\\src\\common\\cleanarchitecture.infrastructure\\repositories\\cache\\cacherepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FB27BD16-7EF8-4FED-B822-177438585578}|src\\Common\\CleanArchitecture.Infrastructure\\Emr.Infrastructure.csproj|solutionrelative:src\\common\\cleanarchitecture.infrastructure\\repositories\\cache\\cacherepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A8D18FE5-1BD1-47D7-B1CC-A388AC959ADF}|src\\Apps\\CleanArchitecture.Api\\Emr.Api.csproj|d:\\truongnp\\nam_2024\\github\\his_manager_pro_v3\\hisserver_2024_v3\\src\\apps\\cleanarchitecture.api\\controllers\\registercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A8D18FE5-1BD1-47D7-B1CC-A388AC959ADF}|src\\Apps\\CleanArchitecture.Api\\Emr.Api.csproj|solutionrelative:src\\apps\\cleanarchitecture.api\\controllers\\registercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A8D18FE5-1BD1-47D7-B1CC-A388AC959ADF}|src\\Apps\\CleanArchitecture.Api\\Emr.Api.csproj|d:\\truongnp\\nam_2024\\github\\his_manager_pro_v3\\hisserver_2024_v3\\src\\apps\\cleanarchitecture.api\\controllers\\patientcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A8D18FE5-1BD1-47D7-B1CC-A388AC959ADF}|src\\Apps\\CleanArchitecture.Api\\Emr.Api.csproj|solutionrelative:src\\apps\\cleanarchitecture.api\\controllers\\patientcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "PatientRepository.cs",
+              "DocumentMoniker": "D:\\Truongnp\\NAM_2024\\GitHub\\HIS_MANAGER_PRO_V3\\HisServer_2024_V3\\src\\Common\\CleanArchitecture.Infrastructure\\Repositories\\Share\\Patient\\PatientRepository.cs",
+              "RelativeDocumentMoniker": "src\\Common\\CleanArchitecture.Infrastructure\\Repositories\\Share\\Patient\\PatientRepository.cs",
+              "ToolTip": "D:\\Truongnp\\NAM_2024\\GitHub\\HIS_MANAGER_PRO_V3\\HisServer_2024_V3\\src\\Common\\CleanArchitecture.Infrastructure\\Repositories\\Share\\Patient\\PatientRepository.cs",
+              "RelativeToolTip": "src\\Common\\CleanArchitecture.Infrastructure\\Repositories\\Share\\Patient\\PatientRepository.cs",
+              "ViewState": "AQIAAIAAAAAAAAAAAAASwJAAAABFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-15T01:36:56.779Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "PatientService.cs",
+              "DocumentMoniker": "D:\\Truongnp\\NAM_2024\\GitHub\\HIS_MANAGER_PRO_V3\\HisServer_2024_V3\\src\\Common\\CleanArchitecture.Infrastructure\\Services\\Share\\Patient\\PatientService.cs",
+              "RelativeDocumentMoniker": "src\\Common\\CleanArchitecture.Infrastructure\\Services\\Share\\Patient\\PatientService.cs",
+              "ToolTip": "D:\\Truongnp\\NAM_2024\\GitHub\\HIS_MANAGER_PRO_V3\\HisServer_2024_V3\\src\\Common\\CleanArchitecture.Infrastructure\\Services\\Share\\Patient\\PatientService.cs",
+              "RelativeToolTip": "src\\Common\\CleanArchitecture.Infrastructure\\Services\\Share\\Patient\\PatientService.cs",
+              "ViewState": "AQIAACcAAAAAAAAAAAAhwCoAAAAzAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-13T08:45:30.43Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "PatientReadModel.cs",
+              "DocumentMoniker": "D:\\Truongnp\\NAM_2024\\GitHub\\HIS_MANAGER_PRO_V3\\HisServer_2024_V3\\src\\Common\\CleanArchitecture.Domain\\ReadModel\\Share\\Patients\\PatientReadModel.cs",
+              "RelativeDocumentMoniker": "src\\Common\\CleanArchitecture.Domain\\ReadModel\\Share\\Patients\\PatientReadModel.cs",
+              "ToolTip": "D:\\Truongnp\\NAM_2024\\GitHub\\HIS_MANAGER_PRO_V3\\HisServer_2024_V3\\src\\Common\\CleanArchitecture.Domain\\ReadModel\\Share\\Patients\\PatientReadModel.cs",
+              "RelativeToolTip": "src\\Common\\CleanArchitecture.Domain\\ReadModel\\Share\\Patients\\PatientReadModel.cs",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAAABcAAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-19T03:07:55.088Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "PatientModel.cs",
+              "DocumentMoniker": "D:\\Truongnp\\NAM_2024\\GitHub\\HIS_MANAGER_PRO_V3\\HisServer_2024_V3\\src\\Common\\CleanArchitecture.Domain\\Model\\Share\\Patient\\PatientModel.cs",
+              "RelativeDocumentMoniker": "src\\Common\\CleanArchitecture.Domain\\Model\\Share\\Patient\\PatientModel.cs",
+              "ToolTip": "D:\\Truongnp\\NAM_2024\\GitHub\\HIS_MANAGER_PRO_V3\\HisServer_2024_V3\\src\\Common\\CleanArchitecture.Domain\\Model\\Share\\Patient\\PatientModel.cs",
+              "RelativeToolTip": "src\\Common\\CleanArchitecture.Domain\\Model\\Share\\Patient\\PatientModel.cs",
+              "ViewState": "AQIAAAIAAAAAAAAAAAASwBAAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-19T03:00:23.471Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "PatientEntityMapper.cs",
+              "DocumentMoniker": "D:\\Truongnp\\NAM_2024\\GitHub\\HIS_MANAGER_PRO_V3\\HisServer_2024_V3\\src\\Common\\CleanArchitecture.Infrastructure\\RepoMapper\\Share\\Patient\\PatientEntityMapper.cs",
+              "RelativeDocumentMoniker": "src\\Common\\CleanArchitecture.Infrastructure\\RepoMapper\\Share\\Patient\\PatientEntityMapper.cs",
+              "ToolTip": "D:\\Truongnp\\NAM_2024\\GitHub\\HIS_MANAGER_PRO_V3\\HisServer_2024_V3\\src\\Common\\CleanArchitecture.Infrastructure\\RepoMapper\\Share\\Patient\\PatientEntityMapper.cs",
+              "RelativeToolTip": "src\\Common\\CleanArchitecture.Infrastructure\\RepoMapper\\Share\\Patient\\PatientEntityMapper.cs",
+              "ViewState": "AQIAAEMAAAAAAAAAAAAMwEoAAAA+AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-19T02:59:25.231Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "BHYTReadModel.cs",
+              "DocumentMoniker": "D:\\Truongnp\\NAM_2024\\GitHub\\HIS_MANAGER_PRO_V3\\HisServer_2024_V3\\src\\Common\\CleanArchitecture.Domain\\ReadModel\\Emr\\BHYT\\BHYTReadModel.cs",
+              "RelativeDocumentMoniker": "src\\Common\\CleanArchitecture.Domain\\ReadModel\\Emr\\BHYT\\BHYTReadModel.cs",
+              "ToolTip": "D:\\Truongnp\\NAM_2024\\GitHub\\HIS_MANAGER_PRO_V3\\HisServer_2024_V3\\src\\Common\\CleanArchitecture.Domain\\ReadModel\\Emr\\BHYT\\BHYTReadModel.cs",
+              "RelativeToolTip": "src\\Common\\CleanArchitecture.Domain\\ReadModel\\Emr\\BHYT\\BHYTReadModel.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAAzwBoAAABAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-16T14:51:54.011Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "CateController.cs",
+              "DocumentMoniker": "D:\\Truongnp\\NAM_2024\\GitHub\\HIS_MANAGER_PRO_V3\\HisServer_2024_V3\\src\\Apps\\CleanArchitecture.Api\\Controllers\\CateController.cs",
+              "RelativeDocumentMoniker": "src\\Apps\\CleanArchitecture.Api\\Controllers\\CateController.cs",
+              "ToolTip": "D:\\Truongnp\\NAM_2024\\GitHub\\HIS_MANAGER_PRO_V3\\HisServer_2024_V3\\src\\Apps\\CleanArchitecture.Api\\Controllers\\CateController.cs",
+              "RelativeToolTip": "src\\Apps\\CleanArchitecture.Api\\Controllers\\CateController.cs",
+              "ViewState": "AQIAACAAAAAAAAAAAAAhwDwAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-15T03:59:06.298Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "RegistryRepository.cs",
+              "DocumentMoniker": "D:\\Truongnp\\NAM_2024\\GitHub\\HIS_MANAGER_PRO_V3\\HisServer_2024_V3\\src\\Common\\CleanArchitecture.Infrastructure\\Repositories\\Emr\\Registers\\RegistryRepository.cs",
+              "RelativeDocumentMoniker": "src\\Common\\CleanArchitecture.Infrastructure\\Repositories\\Emr\\Registers\\RegistryRepository.cs",
+              "ToolTip": "D:\\Truongnp\\NAM_2024\\GitHub\\HIS_MANAGER_PRO_V3\\HisServer_2024_V3\\src\\Common\\CleanArchitecture.Infrastructure\\Repositories\\Emr\\Registers\\RegistryRepository.cs",
+              "RelativeToolTip": "src\\Common\\CleanArchitecture.Infrastructure\\Repositories\\Emr\\Registers\\RegistryRepository.cs",
+              "ViewState": "AQIAAGcBAAAAAAAAAAAwwG8BAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-15T03:59:06.327Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "RegisterController.cs",
+              "DocumentMoniker": "D:\\Truongnp\\NAM_2024\\GitHub\\HIS_MANAGER_PRO_V3\\HisServer_2024_V3\\src\\Apps\\CleanArchitecture.Api\\Controllers\\RegisterController.cs",
+              "RelativeDocumentMoniker": "src\\Apps\\CleanArchitecture.Api\\Controllers\\RegisterController.cs",
+              "ToolTip": "D:\\Truongnp\\NAM_2024\\GitHub\\HIS_MANAGER_PRO_V3\\HisServer_2024_V3\\src\\Apps\\CleanArchitecture.Api\\Controllers\\RegisterController.cs",
+              "RelativeToolTip": "src\\Apps\\CleanArchitecture.Api\\Controllers\\RegisterController.cs",
+              "ViewState": "AQIAABYAAAAAAAAAAAAhwIMAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-15T03:59:06.348Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Truongnp\\NAM_2024\\GitHub\\HIS_MANAGER_PRO_V3\\HisServer_2024_V3\\src\\Apps\\CleanArchitecture.Api\\Program.cs",
+              "RelativeDocumentMoniker": "src\\Apps\\CleanArchitecture.Api\\Program.cs",
+              "ToolTip": "D:\\Truongnp\\NAM_2024\\GitHub\\HIS_MANAGER_PRO_V3\\HisServer_2024_V3\\src\\Apps\\CleanArchitecture.Api\\Program.cs",
+              "RelativeToolTip": "src\\Apps\\CleanArchitecture.Api\\Program.cs",
+              "ViewState": "AQIAADMAAAAAAAAAAAAAAEEAAABIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-15T03:59:06.481Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "BHYTRepository.cs",
+              "DocumentMoniker": "D:\\Truongnp\\NAM_2024\\GitHub\\HIS_MANAGER_PRO_V3\\HisServer_2024_V3\\src\\Common\\CleanArchitecture.Infrastructure\\Repositories\\Emr\\BHYT\\BHYTRepository.cs",
+              "RelativeDocumentMoniker": "src\\Common\\CleanArchitecture.Infrastructure\\Repositories\\Emr\\BHYT\\BHYTRepository.cs",
+              "ToolTip": "D:\\Truongnp\\NAM_2024\\GitHub\\HIS_MANAGER_PRO_V3\\HisServer_2024_V3\\src\\Common\\CleanArchitecture.Infrastructure\\Repositories\\Emr\\BHYT\\BHYTRepository.cs",
+              "RelativeToolTip": "src\\Common\\CleanArchitecture.Infrastructure\\Repositories\\Emr\\BHYT\\BHYTRepository.cs",
+              "ViewState": "AQIAAE8AAAAAAAAAAAAhwGIAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-15T03:59:06.583Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "apiPublic.cs",
+              "DocumentMoniker": "D:\\Truongnp\\NAM_2024\\GitHub\\HIS_MANAGER_PRO_V3\\HisServer_2024_V3\\src\\Common\\CleanArchitecture.Infrastructure\\Hepper\\Provider\\apiPublic.cs",
+              "RelativeDocumentMoniker": "src\\Common\\CleanArchitecture.Infrastructure\\Hepper\\Provider\\apiPublic.cs",
+              "ToolTip": "D:\\Truongnp\\NAM_2024\\GitHub\\HIS_MANAGER_PRO_V3\\HisServer_2024_V3\\src\\Common\\CleanArchitecture.Infrastructure\\Hepper\\Provider\\apiPublic.cs",
+              "RelativeToolTip": "src\\Common\\CleanArchitecture.Infrastructure\\Hepper\\Provider\\apiPublic.cs",
+              "ViewState": "AQIAAGkBAAAAAAAAAAASwH0BAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-15T03:59:06.601Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "PatientController.cs",
+              "DocumentMoniker": "D:\\Truongnp\\NAM_2024\\GitHub\\HIS_MANAGER_PRO_V3\\HisServer_2024_V3\\src\\Apps\\CleanArchitecture.Api\\Controllers\\PatientController.cs",
+              "RelativeDocumentMoniker": "src\\Apps\\CleanArchitecture.Api\\Controllers\\PatientController.cs",
+              "ToolTip": "D:\\Truongnp\\NAM_2024\\GitHub\\HIS_MANAGER_PRO_V3\\HisServer_2024_V3\\src\\Apps\\CleanArchitecture.Api\\Controllers\\PatientController.cs",
+              "RelativeToolTip": "src\\Apps\\CleanArchitecture.Api\\Controllers\\PatientController.cs",
+              "ViewState": "AQIAABEAAAAAAAAAAIAwwCMAAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-15T01:36:56.719Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "RegistryServices.cs",
+              "DocumentMoniker": "D:\\Truongnp\\NAM_2024\\GitHub\\HIS_MANAGER_PRO_V3\\HisServer_2024_V3\\src\\Common\\CleanArchitecture.Infrastructure\\Services\\Emr\\Registers\\RegistryServices.cs",
+              "RelativeDocumentMoniker": "src\\Common\\CleanArchitecture.Infrastructure\\Services\\Emr\\Registers\\RegistryServices.cs",
+              "ToolTip": "D:\\Truongnp\\NAM_2024\\GitHub\\HIS_MANAGER_PRO_V3\\HisServer_2024_V3\\src\\Common\\CleanArchitecture.Infrastructure\\Services\\Emr\\Registers\\RegistryServices.cs",
+              "RelativeToolTip": "src\\Common\\CleanArchitecture.Infrastructure\\Services\\Emr\\Registers\\RegistryServices.cs",
+              "ViewState": "AQIAADkAAAAAAAAAAAAhwEoAAAA5AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-13T08:45:30.451Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "CacheRepository.cs",
+              "DocumentMoniker": "D:\\Truongnp\\NAM_2024\\GitHub\\HIS_MANAGER_PRO_V3\\HisServer_2024_V3\\src\\Common\\CleanArchitecture.Infrastructure\\Repositories\\Cache\\CacheRepository.cs",
+              "RelativeDocumentMoniker": "src\\Common\\CleanArchitecture.Infrastructure\\Repositories\\Cache\\CacheRepository.cs",
+              "ToolTip": "D:\\Truongnp\\NAM_2024\\GitHub\\HIS_MANAGER_PRO_V3\\HisServer_2024_V3\\src\\Common\\CleanArchitecture.Infrastructure\\Repositories\\Cache\\CacheRepository.cs",
+              "RelativeToolTip": "src\\Common\\CleanArchitecture.Infrastructure\\Repositories\\Cache\\CacheRepository.cs",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAhwB0AAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-15T03:59:06.262Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

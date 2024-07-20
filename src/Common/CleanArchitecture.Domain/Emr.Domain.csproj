@@ -1,0 +1,24 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Event\CityActivatedEvent.cs" />
+    <Compile Remove="Event\CityCreatedEvent.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Entities\Store\" />
+    <Folder Include="Event\" />
+    <Folder Include="Model\Pha\StoreExport\" />
+    <Folder Include="ValueObjects" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+    <PackageReference Include="System.ComponentModel.Annotations" Version="5.0.0" />
+  </ItemGroup>
+
+</Project>

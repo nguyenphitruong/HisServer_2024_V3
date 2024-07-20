@@ -1,0 +1,60 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Files\**" />
+    <Compile Remove="Identity\**" />
+    <Compile Remove="Persistence\Configurations\**" />
+    <EmbeddedResource Remove="Files\**" />
+    <EmbeddedResource Remove="Identity\**" />
+    <EmbeddedResource Remove="Persistence\Configurations\**" />
+    <None Remove="Files\**" />
+    <None Remove="Identity\**" />
+    <None Remove="Persistence\Configurations\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Remove="Hepper\Cache\CacheBase.cs" />
+    <Compile Remove="Hepper\Cache\ICache.cs" />
+    <Compile Remove="Hepper\Cache\MemoryCacheHelper.cs" />
+    <Compile Remove="Persistence\SchemaChange\DbSchemaAwareMigrationAssembly.cs" />
+    <Compile Remove="Persistence\ApplicationDbContext.cs" />
+    <Compile Remove="Persistence\ApplicationDbContextSeed.cs" />
+    <Compile Remove="Persistence\MydbContextFactoryBase.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="CsvHelper" Version="28.0.1" />
+    <PackageReference Include="EntityFramework" Version="6.4.4" />
+    <PackageReference Include="EntityFrameworkCore.Data.UnitOfWork" Version="6.0.9" />
+    <PackageReference Include="Microsoft.AspNetCore.ApiAuthorization.IdentityServer" Version="6.0.9" />
+    <PackageReference Include="Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore" Version="6.0.9" />
+    <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="6.0.9" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.InMemory" Version="6.0.9" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="6.0.9" />
+    <PackageReference Include="Microsoft.TestPlatform.TestHost" Version="17.5.0" />
+    <PackageReference Include="Npgsql.EntityFrameworkCore.PostgreSQL" Version="6.0.7" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="6.0.9" />
+    <PackageReference Include="Z.EntityFramework.Extensions.EFCore" Version="6.103.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\CleanArchitecture.Application\Emr.Application.csproj" />
+    <ProjectReference Include="..\CleanArchitecture.Domain\Emr.Domain.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Hepper\Cache\" />
+    <Folder Include="RepoMapper\StoreProduce\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="ServiceProviderCore">
+      <HintPath>..\ServiceProviderCore\bin\Debug\net6.0-windows\ServiceProviderCore.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,451 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\Truongnp\\NAM_2024\\GitHub\\HIS_MANAGER_PRO_V3\\HisServer_2024_V3\\src\\Apps\\CleanArchitecture.Api\\Emr.Api.csproj": {}
+  },
+  "projects": {
+    "D:\\Truongnp\\NAM_2024\\GitHub\\HIS_MANAGER_PRO_V3\\HisServer_2024_V3\\src\\Apps\\CleanArchitecture.Api\\Emr.Api.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Truongnp\\NAM_2024\\GitHub\\HIS_MANAGER_PRO_V3\\HisServer_2024_V3\\src\\Apps\\CleanArchitecture.Api\\Emr.Api.csproj",
+        "projectName": "Emr.Api",
+        "projectPath": "D:\\Truongnp\\NAM_2024\\GitHub\\HIS_MANAGER_PRO_V3\\HisServer_2024_V3\\src\\Apps\\CleanArchitecture.Api\\Emr.Api.csproj",
+        "packagesPath": "C:\\Users\\TRUONGNP\\.nuget\\packages\\",
+        "outputPath": "D:\\Truongnp\\NAM_2024\\GitHub\\HIS_MANAGER_PRO_V3\\HisServer_2024_V3\\src\\Apps\\CleanArchitecture.Api\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\TRUONGNP\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "http://10.0.10.16:8624/nuget/DevExpress21.2.5.ICareHIS": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "D:\\Truongnp\\NAM_2024\\GitHub\\HIS_MANAGER_PRO_V3\\HisServer_2024_V3\\src\\Common\\CleanArchitecture.Application\\Emr.Application.csproj": {
+                "projectPath": "D:\\Truongnp\\NAM_2024\\GitHub\\HIS_MANAGER_PRO_V3\\HisServer_2024_V3\\src\\Common\\CleanArchitecture.Application\\Emr.Application.csproj"
+              },
+              "D:\\Truongnp\\NAM_2024\\GitHub\\HIS_MANAGER_PRO_V3\\HisServer_2024_V3\\src\\Common\\CleanArchitecture.Infrastructure\\Emr.Infrastructure.csproj": {
+                "projectPath": "D:\\Truongnp\\NAM_2024\\GitHub\\HIS_MANAGER_PRO_V3\\HisServer_2024_V3\\src\\Common\\CleanArchitecture.Infrastructure\\Emr.Infrastructure.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "FluentValidation.AspNetCore": {
+              "target": "Package",
+              "version": "[10.4.0, )"
+            },
+            "Microsoft.AspNet.WebApi.Cors": {
+              "target": "Package",
+              "version": "[5.3.0, )"
+            },
+            "Microsoft.AspNetCore.Mvc.NewtonsoftJson": {
+              "target": "Package",
+              "version": "[6.0.9, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.9, )"
+            },
+            "Microsoft.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[6.0.1, )"
+            },
+            "Microsoft.Extensions.DependencyInjection.Abstractions": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Microsoft.Extensions.Diagnostics.HealthChecks.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.9, )"
+            },
+            "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": {
+              "target": "Package",
+              "version": "[1.17.0, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[6.0.9, )"
+            },
+            "Serilog.AspNetCore": {
+              "target": "Package",
+              "version": "[6.0.1, )"
+            },
+            "Serilog.Enrichers.Environment": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Serilog.Sinks.Elasticsearch": {
+              "target": "Package",
+              "version": "[8.4.1, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.4.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Truongnp\\NAM_2024\\GitHub\\HIS_MANAGER_PRO_V3\\HisServer_2024_V3\\src\\Common\\CleanArchitecture.Application\\Emr.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Truongnp\\NAM_2024\\GitHub\\HIS_MANAGER_PRO_V3\\HisServer_2024_V3\\src\\Common\\CleanArchitecture.Application\\Emr.Application.csproj",
+        "projectName": "Emr.Application",
+        "projectPath": "D:\\Truongnp\\NAM_2024\\GitHub\\HIS_MANAGER_PRO_V3\\HisServer_2024_V3\\src\\Common\\CleanArchitecture.Application\\Emr.Application.csproj",
+        "packagesPath": "C:\\Users\\TRUONGNP\\.nuget\\packages\\",
+        "outputPath": "D:\\Truongnp\\NAM_2024\\GitHub\\HIS_MANAGER_PRO_V3\\HisServer_2024_V3\\src\\Common\\CleanArchitecture.Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\TRUONGNP\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "http://10.0.10.16:8624/nuget/DevExpress21.2.5.ICareHIS": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "D:\\Truongnp\\NAM_2024\\GitHub\\HIS_MANAGER_PRO_V3\\HisServer_2024_V3\\src\\Common\\CleanArchitecture.Domain\\Emr.Domain.csproj": {
+                "projectPath": "D:\\Truongnp\\NAM_2024\\GitHub\\HIS_MANAGER_PRO_V3\\HisServer_2024_V3\\src\\Common\\CleanArchitecture.Domain\\Emr.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "FluentValidation": {
+              "target": "Package",
+              "version": "[10.4.0, )"
+            },
+            "FluentValidation.DependencyInjectionExtensions": {
+              "target": "Package",
+              "version": "[10.4.0, )"
+            },
+            "Mapster": {
+              "target": "Package",
+              "version": "[7.3.0, )"
+            },
+            "Mapster.DependencyInjection": {
+              "target": "Package",
+              "version": "[1.0.0, )"
+            },
+            "MediatR.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[10.0.1, )"
+            },
+            "Microsoft.AspNetCore.Mvc.Core": {
+              "target": "Package",
+              "version": "[2.2.5, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.9, )"
+            },
+            "Microsoft.Extensions.Identity.Core": {
+              "target": "Package",
+              "version": "[6.0.9, )"
+            },
+            "Microsoft.IdentityModel.JsonWebTokens": {
+              "target": "Package",
+              "version": "[6.23.1, )"
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[6.23.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Truongnp\\NAM_2024\\GitHub\\HIS_MANAGER_PRO_V3\\HisServer_2024_V3\\src\\Common\\CleanArchitecture.Domain\\Emr.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Truongnp\\NAM_2024\\GitHub\\HIS_MANAGER_PRO_V3\\HisServer_2024_V3\\src\\Common\\CleanArchitecture.Domain\\Emr.Domain.csproj",
+        "projectName": "Emr.Domain",
+        "projectPath": "D:\\Truongnp\\NAM_2024\\GitHub\\HIS_MANAGER_PRO_V3\\HisServer_2024_V3\\src\\Common\\CleanArchitecture.Domain\\Emr.Domain.csproj",
+        "packagesPath": "C:\\Users\\TRUONGNP\\.nuget\\packages\\",
+        "outputPath": "D:\\Truongnp\\NAM_2024\\GitHub\\HIS_MANAGER_PRO_V3\\HisServer_2024_V3\\src\\Common\\CleanArchitecture.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\TRUONGNP\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "http://10.0.10.16:8624/nuget/DevExpress21.2.5.ICareHIS": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "dependencies": {
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
+            },
+            "System.ComponentModel.Annotations": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Truongnp\\NAM_2024\\GitHub\\HIS_MANAGER_PRO_V3\\HisServer_2024_V3\\src\\Common\\CleanArchitecture.Infrastructure\\Emr.Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Truongnp\\NAM_2024\\GitHub\\HIS_MANAGER_PRO_V3\\HisServer_2024_V3\\src\\Common\\CleanArchitecture.Infrastructure\\Emr.Infrastructure.csproj",
+        "projectName": "Emr.Infrastructure",
+        "projectPath": "D:\\Truongnp\\NAM_2024\\GitHub\\HIS_MANAGER_PRO_V3\\HisServer_2024_V3\\src\\Common\\CleanArchitecture.Infrastructure\\Emr.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\TRUONGNP\\.nuget\\packages\\",
+        "outputPath": "D:\\Truongnp\\NAM_2024\\GitHub\\HIS_MANAGER_PRO_V3\\HisServer_2024_V3\\src\\Common\\CleanArchitecture.Infrastructure\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\TRUONGNP\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "http://10.0.10.16:8624/nuget/DevExpress21.2.5.ICareHIS": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "D:\\Truongnp\\NAM_2024\\GitHub\\HIS_MANAGER_PRO_V3\\HisServer_2024_V3\\src\\Common\\CleanArchitecture.Application\\Emr.Application.csproj": {
+                "projectPath": "D:\\Truongnp\\NAM_2024\\GitHub\\HIS_MANAGER_PRO_V3\\HisServer_2024_V3\\src\\Common\\CleanArchitecture.Application\\Emr.Application.csproj"
+              },
+              "D:\\Truongnp\\NAM_2024\\GitHub\\HIS_MANAGER_PRO_V3\\HisServer_2024_V3\\src\\Common\\CleanArchitecture.Domain\\Emr.Domain.csproj": {
+                "projectPath": "D:\\Truongnp\\NAM_2024\\GitHub\\HIS_MANAGER_PRO_V3\\HisServer_2024_V3\\src\\Common\\CleanArchitecture.Domain\\Emr.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "CsvHelper": {
+              "target": "Package",
+              "version": "[28.0.1, )"
+            },
+            "EntityFramework": {
+              "target": "Package",
+              "version": "[6.4.4, )"
+            },
+            "EntityFrameworkCore.Data.UnitOfWork": {
+              "target": "Package",
+              "version": "[6.0.9, )"
+            },
+            "Microsoft.AspNetCore.ApiAuthorization.IdentityServer": {
+              "target": "Package",
+              "version": "[6.0.9, )"
+            },
+            "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.9, )"
+            },
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.9, )"
+            },
+            "Microsoft.EntityFrameworkCore.InMemory": {
+              "target": "Package",
+              "version": "[6.0.9, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[6.0.9, )"
+            },
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[6.0.9, )"
+            },
+            "Microsoft.TestPlatform.TestHost": {
+              "target": "Package",
+              "version": "[17.5.0, )"
+            },
+            "Npgsql.EntityFrameworkCore.PostgreSQL": {
+              "target": "Package",
+              "version": "[6.0.7, )"
+            },
+            "Z.EntityFramework.Extensions.EFCore": {
+              "target": "Package",
+              "version": "[6.103.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

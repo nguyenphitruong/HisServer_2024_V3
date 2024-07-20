@@ -1,0 +1,30 @@
+BEGIN  
+    -- SET new.idline = uuid();  
+		-- Set new.`year` = YEAR(NOW());
+-- END
+
+-- BEGIN	 	 	
+
+	-- IF new.type = 'Update' then		
+		-- UPDATE phainventoryl a	
+		-- set  a.qtyt = a.qtyt + new.qtyt, a.qtyimp = a.qtyimp + new.qtyimp, a.qtyexp = a.qtyexp + new.qtyexp, a.qtyrep = a.qtyrep + new.qtyrep, a.userup = new.userup
+		-- WHERE a.siterf = new.siterf and a.storeid = new.storeid and a.mmyy = new.mmyy and a.drugid = new.drugid and a.drugcode = new.drugcode
+		-- and a.followid = new.followid;
+		
+		-- UPDATE phainventoryh a	
+		-- set  a.qtyt = a.qtyt + new.qtyt, a.qtyimp = a.qtyimp + new.qtyimp, a.qtyexp = a.qtyexp + new.qtyexp, a.qtyrep = a.qtyrep + new.qtyrep, a.userup = new.userup
+		-- WHERE a.siterf = new.siterf and a.storeid = new.storeid and a.mmyy = new.mmyy and a.drugid = new.drugid and a.drugcode = new.drugcode;
+	-- ELSEIF new.type = 'Insert' then		
+		-- UPDATE phainventoryh a	
+		-- set  a.qtyt = a.qtyt + new.qtyt, a.qtyimp = a.qtyimp + new.qtyimp, a.qtyexp = a.qtyexp + new.qtyexp, a.qtyrep = a.qtyrep + new.qtyrep, a.userup = new.userup
+		-- WHERE a.siterf = new.siterf and a.storeid = new.storeid and a.mmyy = new.mmyy and a.drugid = new.drugid and a.drugcode = new.drugcode;	
+	-- End IF;
+-- END
+-- --invenl--
+-- BEGIN	 	 	
+	-- IF (new.qtyt < 0 or new.qtyimp < 0 or new.qtyexp < 0 or new.qtyrep < 0 or (new.qtyt + new.qtyimp - new.qtyexp - new.qtyrep < 0)) then
+		-- -- thong tin hien thi theo thu tu: storeid, mmyy, drugid, qtyt, qtyimp, qtyexp, qtyrep
+		-- set @msg := concat('phainventoryl: ', new.storeid, ', ', new.mmyy, ', ', new.drugid, ', ', cast(new.qtyt as DECIMAL(24,3)), ', ', cast(new.qtyimp as DECIMAL(24,3)), ', ', cast(new.qtyexp as DECIMAL(24,3)), ', ', cast(new.qtyrep as DECIMAL(24,3)));
+		-- SIGNAL SQLSTATE '45000' set message_text = @msg;
+	-- End IF;
+-- END
