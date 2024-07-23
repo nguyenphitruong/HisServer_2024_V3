@@ -1191,6 +1191,38 @@ CREATE  INDEX default_index
 ON SYS_menu(modulecode)
 Go
 
+Create table SYS_noseriline
+(
+id int primary key not null,
+code varchar(50),
+name Nvarchar(250),
+lastnum int,
+prefix varchar(10),
+surfix varchar(10),
+dateused DateTime,
+yearused char(4),
+typereset varchar(10),
+typechar varchar(10),
+numreset int
+step int,
+valueinit int
+lennum varchar(20),
+descrp nvarchar(150),
+siterf int ,
+active int,
+usercr nvarchar(150),
+timecr DateTime,
+userup nvarchar(150),
+timeup DateTime,
+computer nvarchar(150),
+mac nvarchar(150),
+)	
+Go
+CREATE  INDEX default_index
+ON SYS_noseriline(code)
+Go
+
+
 
 insert into SYS_module (id,code,name,path,icon,note,siterf,active,usercr,timecr,userup,timeup,computer,mac)
 values(1,'TIEPNHAN','Tiếp nhận','EMR','MonetizationOnRoundedIcon','',1,1,'truongnp',GETDATE(),'truongnp',GETDATE(),'truongnp','');
