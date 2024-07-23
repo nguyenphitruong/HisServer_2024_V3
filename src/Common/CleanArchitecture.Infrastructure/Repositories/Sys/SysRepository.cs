@@ -939,5 +939,9 @@ namespace Emr.Infrastructure.Repositories.Sys
         }
         #endregion
 
+        #region  SYS Noseriline
+
+        #endregion
+
     }
 }

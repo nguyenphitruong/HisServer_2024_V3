@@ -6,6 +6,7 @@ using Emr.Domain.ReadModel.Share.Patients.ValuesObject;
 using Emr.Infrastructure.Persistence;
 using Emr.Infrastructure.RepoMapper.Share.Patient;
 using Emr.Infrastructure.Repositories.Cates;
+using Emr.Infrastructure.Repositories.Sys;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Caching.Memory;
 using System;
@@ -20,11 +21,13 @@ namespace Emr.Infrastructure.Repositories.Share.Patient
         private PatientEntityMapper _mapper;
         private readonly IMemoryCache caching;
         private MyDbShareContext dbContext;
+        private SysNoserilineRepository sysNoserilineRepo;
 
         public PatientRepository(MyDbShareContext i_dbContext)
         {
             dbContext = i_dbContext;
             _mapper = new PatientEntityMapper();
+            sysNoserilineRepo = new SysNoserilineRepository(dbContext);
         }
 
         //public PatientRepository()
@@ -158,16 +161,16 @@ namespace Emr.Infrastructure.Repositories.Share.Patient
         #endregion
         #region SaveRepository
         public PatientReadModel SavePatient(PatientModel i_PatientModel)
-
         {
             PatientReadModel result = new PatientReadModel();
             try
             {
+                string mabn = sysNoserilineRepo.CreateHospCodeForCommon(1, "HOSPCODE");
 
                 EMR_patient patientEntity = _mapper.MapFromModelToEntityemrpatient(i_PatientModel);
 
-                //patientEntity.patcode = "2410000000";
-                
+                patientEntity.patcode = string.IsNullOrEmpty(patientEntity.patcode) ? sysNoserilineRepo.CreateHospCodeForCommon(1, "HOSPCODE") : patientEntity.patcode;
+
                 patientEntity.patid = Guid.NewGuid().ToString();
                 patientEntity.mmyys = DateTime.Now.Month.ToString();
                 patientEntity.yyyy = DateTime.Now.Year.ToString(); ;

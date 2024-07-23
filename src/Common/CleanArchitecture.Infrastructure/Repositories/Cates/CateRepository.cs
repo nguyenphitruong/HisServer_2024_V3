@@ -58,6 +58,7 @@ namespace Emr.Infrastructure.Repositories.Cates
             CateCachingReadModel Result = new CateCachingReadModel();
             try
             {
+                Result.LstCachingCateShareHeader = GetAllCachingCateShareHeader();
                 Result.LstCachingCateShareLine = GetAllCachingCateShareLine();
                 Result.LstCachingCateICD10 = GetAllCachingCateICD10();
                 Result.LstCachingCateHopital = GetAllCachingCateHopital();
@@ -67,6 +68,31 @@ namespace Emr.Infrastructure.Repositories.Cates
                 throw ex;
             }
             return Result;
+        }
+
+        public List<CateLineReadModel> GetAllCachingCateShareHeader()
+        {
+            List<CateLineReadModel> lstResult = new List<CateLineReadModel>();
+
+            try
+            {
+                lstResult = (from cateL in dbContext.CATE_sharehs.AsNoTracking().Where(x => x.active == 1)
+                             select new CateLineReadModel
+                             {
+                                 id = cateL.id,
+                                 codeh = cateL.model.Trim(), 
+                                 code = cateL.code.Trim(), 
+                                 name = cateL.name, 
+                                 active = cateL.active, 
+                                 des = cateL.des,                 
+                             }).ToList();
+
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+            }
+            return lstResult;
         }
         public List<CateLineReadModel> GetAllCachingCateShareLine()
         {

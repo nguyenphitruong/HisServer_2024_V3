@@ -70,6 +70,7 @@ namespace Emr.Infrastructure.Persistence
 
         public virtual DbSet<SYS_module> SYS_modules { get; set; }
         public virtual DbSet<SYS_menu> SYS_menus { get; set; }
+        public virtual DbSet<SYS_noseriline> SYS_noserilines { get; set; }
 
         //---End-----
 
