@@ -88,7 +88,8 @@ namespace Emr.Infrastructure.Repositories.BHYT
                     i_Parameter.Add(ConstantColumn.username, username);
                     i_Parameter.Add(ConstantColumn.password, password);
 
-                    string fullUri1 = "http://egw.baohiemxahoi.gov.vn/api/egw/NhanLichSuKCB2018";
+                    //string fullUri1 = "https://egw.baohiemxahoi.gov.vn/api/egw/KQNhanLichSuKCB2024";
+                    string fullUri1 = "http://egw.baohiemxahoi.gov.vn/api/egw/api/egw/NhanLichSuKCB2018";
 
                     string i_JsonBodyBHYTFuction = JsonConvert.SerializeObject(i_CarePara);
                     string strResultBHYTFuction = apiServiceProvider.CallServiceViettel("BHYTFuction", null, null, i_Parameter, i_JsonBodyBHYTFuction, null, null, fullUri1);

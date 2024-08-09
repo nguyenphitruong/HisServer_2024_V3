@@ -143,6 +143,11 @@ namespace Emr.Infrastructure.Repositories
                 }
                 i_Headers.Add("IdRequest", Guid.NewGuid().ToString());
 
+                //if (i_ServiceCode == "BHYTFuction")
+                //{
+                //    fullUri = "https://egw.baohiemxahoi.gov.vn/api/egw/KQNhanLichSuKCB2024";
+                //}
+
                 //ServiceInfo serInfo = GetService(i_ServiceCode);
 
                 //string fullUri = serInfo.uri + "/" + i_ExtendURL;
